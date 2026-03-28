@@ -18,3 +18,21 @@ document.getElementById("p2").textContent = `testing 'typeof' of x ${typeof x}`;
 let happy = false
 
 document.getElementById("p3").textContent = `This is a the type of happy ${typeof happy}`;
+
+console.log("-------------")
+
+let count = 14
+count = count ** 3  // exponentiation
+
+console.log(count)
+
+console.log("-------------")
+
+// let username = window.prompt("Enter your name")
+// document.getElementById("p4").textContent = `Hello ${username}`
+
+let name1;
+document.getElementById("button1").onclick = function () {
+    name1 = document.getElementById("input1").value;
+    document.getElementById("p4").textContent = `Hello ${name1}`;
+}
