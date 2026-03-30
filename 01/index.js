@@ -36,3 +36,8 @@ document.getElementById("button1").onclick = function () {
     name1 = document.getElementById("input1").value;
     document.getElementById("p4").textContent = `Hello ${name1}`;
 }
+
+let age = window.prompt("How old are you?")
+age = Number(age);
+age++;
+console.log(`You are a year younger than ${age}`);
