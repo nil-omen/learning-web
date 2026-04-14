@@ -1,0 +1,11 @@
+h1{
+    text-align: center;
+    color: hsla(0, 66%, 57%, 0.685);
+
+}
+body {
+    font-size: large;
+    font-family: Verdana, sans-serif;
+    color: rgb(178, 206, 23);
+    background-color: hsla(192, 32%, 62%, 0.74);
+}

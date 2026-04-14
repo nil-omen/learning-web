@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+    "allowJs": true,
+    "noEmit": true, 
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+    },
+    "include": ["**/*.ts", "**/*.js"]
+}
